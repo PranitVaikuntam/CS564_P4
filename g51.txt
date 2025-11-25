@@ -1,0 +1,6 @@
+Jesse Mendez (mendez6@wisc.edu): Implemented createHeapFile(), destroyHeapFile(), and HeapFile constructor/destructor; handled file initialization and header setup.
+Parth Aditya (paditya2@wisc.edu): Implemented getRecord(), scanNext(), and all HeapFileScan operations (startScan, endScan, markScan, resetScan); handled sequential and filtered scanning.
+Pranit Vaikuntam (vaikuntam@wisc.edu): Implemented insertRecord() and deleteRecord(); fixed filtered scan issues after deletions and improved error handling.
+
+
+Each member contributed roughly equally. A shared document was used to coordinate implementations, and all code was tested collectively on WSL and CS machines. All tests in testfile.C pass, including edge cases for scans, deletions, and concurrent operations.
